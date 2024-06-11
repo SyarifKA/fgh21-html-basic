@@ -6,7 +6,7 @@ body {
 .container {
     height: 500px;
     width: 800px;
-    background-color: aqua;
+    background-color: white;
     margin: auto;
     margin-top: 50px;
     box-shadow: 2px 1px 10px 3px #d6d6d6;
@@ -23,6 +23,14 @@ h1 {
     display: inline-block;
 }
 
+input {
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
 .regist {
     color: white;
     background-color: salmon;
@@ -32,19 +40,40 @@ h1 {
 }
 
 .regist:hover {
-    background-color: white;
-    color: salmon;
+    background-color: rgb(247, 76, 57);
+        color: white;
 }
 
 .login {
     color: salmon;
-    background-color: aqua;
+    background-color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
 }
 
 .login:hover {
-    background-color: salmon;
+    background-color: rgb(247, 76, 57);
     color: white;
+}
+.privacy {
+    font-size: 12px;
+}
+
+.privacy a {
+    text-decoration: none;
+    color: salmon;
+}
+
+#agree {
+    height: 20px;
+    width: 20px;
+}
+
+.hero {
+    width: 350px;
+    height: 350px;
+    background-image: url(work.png);
+    background-size: cover;
+    display: inline-block;
 }
